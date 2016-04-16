@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"libPd\"><param name=\"ios-package\" value=\"libPd\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.kwakers.phonegap.phonegap-libpd": {
+            "PACKAGE_NAME": "com.kwakers.tutoriel"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/com.kwakers.phonegap.phonegap-libpd/www/libPd.js",
+            "id": "com.kwakers.phonegap.phonegap-libpd.libPd",
+            "pluginId": "com.kwakers.phonegap.phonegap-libpd",
+            "clobbers": [
+                "libPd"
+            ]
+        }
+    ]
+}

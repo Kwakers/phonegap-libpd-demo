@@ -1,0 +1,11 @@
+{
+    "com.kwakers.phonegap.phonegap-libpd": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kwakers/phonegap-libpd",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

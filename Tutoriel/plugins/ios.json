@@ -1,0 +1,15 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.kwakers.phonegap.phonegap-libpd": {
+            "PACKAGE_NAME": "com.kwakers.tutoriel"
+        }
+    },
+    "dependent_plugins": {}
+}
