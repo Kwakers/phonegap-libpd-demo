@@ -5,6 +5,13 @@ Petite application ios créée lors d'un tutoriel vidéo afin de montrer comment
 
 Je n'ai pas pu inclure libpd dans ce repo, donc pensez à rajouter dans Tutoriel/libs/libpd, le contenu du git de libpd (dispo ci dessous).
 
+    mkdir libs
+    cd libs
+    git clone https://github.com/libpd/libpd.git
+    cd libpd
+    git submodule init
+    git submodule update
+
 Les softs et libs nécessaires sont dispo ici : 
 
 - https://github.com/libpd/libpd
