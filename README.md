@@ -3,7 +3,7 @@ Introduction
 
 Petite application ios créée lors d'un tutoriel vidéo afin de montrer comment créer une première application phonenap avec libpd à partir de zero.
 
-Je n'ai pas pu inclure la libpd dans ce repo, donc pensez à rajouter dans Tutoriel/libs/libpd, le contenu du git de libpd (dispo ci dessous).
+Je n'ai pas pu inclure libpd dans ce repo, donc pensez à rajouter dans Tutoriel/libs/libpd, le contenu du git de libpd (dispo ci dessous).
 
 Les softs et libs nécessaires sont dispo ici : 
 
